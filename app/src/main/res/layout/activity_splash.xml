@@ -11,13 +11,16 @@
 >
 
     <TextView
-            android:text="NewMUN"
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2" app:layout_constraintEnd_toEndOf="@+id/imageView2"
-            app:layout_constraintStart_toStartOf="@+id/imageView2" android:layout_marginStart="8dp"
-            android:textSize="36sp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Proj B"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
     <ProgressBar
             style="?android:attr/progressBarStyle"
             android:layout_width="wrap_content"
@@ -35,12 +38,19 @@
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
             android:text="@string/cre" android:textAlignment="center" android:inputType="textMultiLine"
             android:layout_marginEnd="32dp"/>
+
     <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="213dp"
+            android:layout_height="231dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="64dp"
+            android:scaleType="fitCenter"
             android:transitionName="sth"
-            android:layout_height="231dp" app:srcCompat="@drawable/annotation"
-            android:id="@+id/imageView2" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginBottom="64dp" app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/multicolored-b-vector-art-png-clip-art" />
 </androidx.constraintlayout.widget.ConstraintLayout>
