@@ -52,5 +52,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/multicolored-b-vector-art-png-clip-art" />
+            app:srcCompat="@drawable/multicolored_b_vector_art_png_clip_art" />
 </androidx.constraintlayout.widget.ConstraintLayout>
